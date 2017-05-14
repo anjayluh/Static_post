@@ -2,27 +2,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background:white;
+  background: #f7f7f7;
 }
-img.profilePicture {
-	width: 48px;
-  height: 48px;
-  display: inline;
-}
-.postDate {
-    color:#A9A9A9;
-} 
 .live {
   color: #A9A9A9;
   font-style: none;
+  font-size: 14px;
 }
 .userName{
+  top: 0px;
+  left: 40px;
+  padding-top: 10px;
   display: inline;
   margin-right:170px;
-  font-size: 18px;
+  font-size: 14px;
   line-height:1.5em;
   text-decoration: none;
-  color: blue;
+  color: #3b5999;
 }
 .postTitle{
     /*margin-bottom:0;*/
@@ -31,19 +27,30 @@ img.profilePicture {
 .postDate{
     margin-top:10px;
     margin-bottom:20px;
+    font-size: 12px;
+    color:#A9A9A9;
     }
 .facebook {
-  position: relative;
-  max-width: 800px;
-  width: 90%;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-  background-color: white;
+  top: 70px;
+  left: 240px;
+  position: absolute;
+  background: white;
+  width: 580px;
+  height: 600px;
+  border-radius: 3px/3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  -webkit-box-shadow: 0 3px 8px rgba (0, 0, 0, .25);
 }
+
 #myPost {
   width: 500px;
   height: 300px;
+  position: absolute;
+  border-radius: 3px/3px;
+  padding-left: 10px;
+  padding-top: 10px
   /*border: */
 }
 #profilePhoto {

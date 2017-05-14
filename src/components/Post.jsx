@@ -14,13 +14,15 @@ function Post() {
   // comments: '',
   return (
     <div className="container">
-      <h5 className="subPageTitle">
-        <img src={profilePhoto} className="profilePicture" alt="profilePicture" />
-        &nbsp;
-        <span className="userName">NBC News <span className="live">is live now.</span> </span>
-        <div className="postDate"> {datePosted}</div>
-      </h5>
-      <p className="postTitle">{title}</p>
+      <table cellSpacing="0">
+        <tr><td rowSpan="2">
+          <img src={profilePhoto} height="50" width="50" alt="profilePicture" />
+        </td>
+          <td>
+            <p1 className="userName">NBC News <p3 className="live">is live now.</p3></p1>
+          </td></tr><tr><td>
+            <p2 className="postDate"> {datePosted}</p2></td></tr></table>
+      <p className="postTitle">{title}</p> <br />
       <img src={myPost} id="myPost" alt="myPost" />
     </div>
   );
