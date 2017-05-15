@@ -1,12 +1,13 @@
 import React from 'react';
-import '../App.css';
-import Post from './Post.jsx';
+import Post from './Post';
 
-function App(props) {
+function App() {
   return (
     <div className="facebook">
       <div className="toolbar">
-        <Post />
+        <div>
+          <Post />
+        </div>
       </div>
     </div>
   );
